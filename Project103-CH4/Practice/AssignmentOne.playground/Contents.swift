@@ -12,6 +12,6 @@ var studentGrades: [String:[Int]] =
             ]
 
 studentGrades.forEach() { name, grades in
-    print("\(name) has the following grades \(grades) and an average of \(grades.reduce(0, +) / grades.count)")
+    print("\(name) has the following grades \(grades) and an average grade of \(grades.reduce(0, +) / grades.count)")
     
 }
